@@ -2,8 +2,6 @@
 # Actualizar PC
 apt-get update
 
-# Instalar vi
-apt-get install vi
 
 # Instalamos defconf-utils -y
 apt-get install debconf-utils -y
