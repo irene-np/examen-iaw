@@ -16,6 +16,7 @@ apt-get install mysql-server -y
 
 #Descargamos el my.cnf
 cd /etc/mysql
+rm -R my.cnf
 cp my.cnf /etc/mysql/
 
 #Reiniciar Mysql
